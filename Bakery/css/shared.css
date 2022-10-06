@@ -1,0 +1,149 @@
+
+body {
+font-family: 'Encode Sans Condensed', sans-serif;
+overflow-y: scroll;
+background-color: white;
+}
+
+.bodyContainer {
+background-image: url(../img/background.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+padding: 100pt;
+}
+
+.headerLogo {
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(88, 88, 88);
+    text-align: center;
+    padding-top: 15pt;
+    padding-bottom: 15pt;
+  }
+  
+  .navbar a {
+    color: #f2f2f2;
+    padding: 14pt 100pt;
+    text-decoration: none;
+    font-size: 20px;
+    transition:0.5s;
+  }
+  
+  .navbar a:hover {
+    background-color: #bb9050;
+    color: black;
+    transition:0.2s;
+  }
+
+.contentBox{
+    background-color: #ffffff8e;
+    color: black;
+    padding: 20pt;
+    margin: 20pt;
+    text-align: center;
+}
+
+.contentBox ul {
+    list-style-type: none; 
+}
+
+.contentBox li {
+    padding-top: 10pt;
+}
+
+.miniBox {
+    text-align: left;
+    padding-left: 40pt;
+    padding-right: 40pt;
+}
+
+.galleryContainer {
+    background-color: #ffffff8e;
+    padding: 20pt;
+    margin: 20pt;
+    text-align: center;
+}
+
+.gallery img {
+    width: 450px;
+    height: 300px;
+    display:inline;
+    margin: 25pt;
+    transition: 0.5s;
+}
+
+.gallery img:hover {
+    width: 470px;
+    height: 320px;
+    transition: 0.5s;
+}
+
+.contactContainer input {
+    width: 300px;
+    height: 20px;
+}
+
+#submitButton {
+    background-color: rgb(88, 88, 88);
+    color: white;
+    margin-top: 15pt;
+    height: 50px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
+.contactContainer textarea{
+    height: 200px;
+    width: 300px;
+    max-width: 300px;
+    max-height: 200px;
+    min-width: 300px;
+    min-height: 200px;
+    
+}
+
+.liveChatButton {
+    position: fixed;
+}
+.liveChatButton img{
+    width: 80px;
+    height: 80px;
+    margin: 5pt;
+    transition: 1s;
+}
+.liveChatButton img:hover{
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
+
+.socialFooter {
+    background-color: #ffffff;
+    color: black;
+    margin-top: 15pt;
+    text-align: center;
+    padding-bottom: 10pt;
+    color: white;
+}
+
+.socialFooter img {
+    padding-left: 25pt;
+    padding-right: 25pt;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    transition: 0.2s;
+}
+
+.socialFooter img:hover{
+    width: 65px;
+    height: 65px;
+    transition: 0.2s;
+}
+
+
